@@ -23,34 +23,14 @@
   justify-content: space-evenly;
   font-size: 20px;
 }
-
-@media screen and (max-width: 1024px) {
-  .navegacion {
-    font-size: 15px;
-  }
+ 
+ 
+.main {
+  display: flex;
+  flex-direction: column;
 }
 
-.aside-nav {
-  display: none;
-}
-@media screen and (max-width: 768px) {
-  .header {
-    display: none;
-  }
-  .aside-nav {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    width: fit-content;
-    background-color: lightpink;
-    padding: 20px;
-  }
-  .logo {
-    height: 50px;
-    width: 50px;
-  }
-  .navegacion-aside {
-    display: flex;
-    flex-direction: column;
-  }
+.articulos-horarios {
+  display: flex;
+  flex-direction: row;
 }
